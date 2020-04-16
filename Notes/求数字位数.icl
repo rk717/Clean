@@ -16,3 +16,9 @@ askdigit num
 Start = askdigit 1234
 
 //4
+
+
+askdigit :: Int -> Int
+askdigit num
+  | num < 10 = 1
+  = 1 + askdigit (num / 10)
