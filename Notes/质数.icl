@@ -15,3 +15,6 @@ check n i
 
 
 Start = isPrime 5 // True
+
+------------------------------------------
+isEmpty (filter (\x -> num rem x) [1..num-1])
