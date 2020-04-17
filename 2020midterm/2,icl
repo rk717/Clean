@@ -1,0 +1,30 @@
+module q2
+import StdEnv
+
+/*
+Grade 2 : Write a function to count how many digits in a number
+Grade 3 : Modify the previous function to only count the digits of the Positive number (gives 0 otherwise)
+Grade 4 : Write a function to decide if a number is a Magic number.
+Grade 5 : Write a functio to determine if all the Integers in the list are magic numbers.
+INFO : Magic number has a special properity the first n of its digits, 
+should be multiple of n.
+Note : 0 is not a magic number
+i.e : 120 is Magic number since 12 is multiple of 2 and 120 is multiple of 3. 
+On the other hand 118 is not since 11 is not multiple of 2.
+*/
+//countNum :: Int -> Int
+// Start = countNum 1234 // 4
+// Start = countNum 0 // 1
+// Start = countNum -1 // 1
+
+
+//isMagicNum :: Int -> Bool
+// Start = isMagicNum 0 // False
+// Start = isMagicNum 4 // True
+// Start = isMagicNum 14 // True
+// Start = isMagicNum 120 // True
+// Start = isMagicNum 118 // False
+
+//areAllMagicNums :: [Int] -> Bool
+// Start = areAllMagicNums [4, 14, 120] // True
+// Start = areAllMagicNums [4, 51, 6] // False
