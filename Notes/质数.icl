@@ -9,12 +9,13 @@ check n i
  | i < n && n rem i <> 0 = check n (i+1)
  | i >= n = True
 
- 
-
- 
-
-
 Start = isPrime 5 // True
 
 ------------------------------------------
 isEmpty (filter (\x -> num rem x) [1..num-1])
+
+---------------------------------------
+isPrime :: Int -> Bool
+isPrime n
+| n <= 1= False
+= isEmpty[x\\x<-[2..(n-1)] | n rem x == 0]
