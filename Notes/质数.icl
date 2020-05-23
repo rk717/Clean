@@ -24,4 +24,4 @@ isPrime n
 isPrime :: Int -> Bool
 isPrime n
 | n <= 1= False
-= isEmpty[filter(\x -> num rem x == 0)[2..num-1]]
+= isEmpty(filter(\x -> num rem x == 0)[2..num-1])
