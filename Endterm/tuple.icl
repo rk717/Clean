@@ -14,6 +14,6 @@ checkName letter name
 
 startsWith :: Char People -> [String]
 startsWith letter myPe
-=[snd x \\ x <- myPe | checkName letter (snd x) ]
+=removeDup[snd x \\ x <- myPe | checkName letter (snd x) ]
 
 Start = startsWith 'A' [(1, "Alice"), (2, "Anne"), (3, "Anne"), (4, "Bob")] // ["Alice", "Anne"]
